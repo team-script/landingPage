@@ -1,11 +1,12 @@
 import styled from "styled-components";
 export const BoxStyled = styled.div`
   display: ${({ display }) => display};
-  transform: ${({ transform }) => transform};
   cursor: ${({ cursor }) => cursor};
   padding: ${({ padding }) => padding};
   padding-bottom: ${({ paddingBottom }) => paddingBottom};
   padding-top: ${({ paddingTop }) => paddingTop};
+  padding-left: ${({ paddingLeft }) => paddingLeft};
+  padding-right: ${({ paddingRight }) => paddingRight};
   margin-left: ${({ marginLeft }) => marginLeft};
   margin-top: ${({ marginTop }) => marginTop};
   margin: ${({ margin }) => margin};
@@ -18,11 +19,16 @@ export const BoxStyled = styled.div`
   color: ${({ color }) => color};
   border-radius: ${({ borderRadius }) => borderRadius};
   border-top-right-radius: ${({ borderRadiusTopRight }) =>
-    borderRadiusTopRight};
+  borderRadiusTopRight};
+  border-top-left-radius: ${({ borderRadiusTopLeft }) =>
+  borderRadiusTopLeft};
+  border-bottom-left-radius: ${({ borderRadiusBottomLeft }) =>
+  borderRadiusBottomLeft};
   border-bottom-right-radius: ${({ borderRadiusBottomRight }) =>
-    borderRadiusBottomRight};
+  borderRadiusBottomRight};
   cursor: ${({ pointer }) => pointer && "pointer"};
   border: ${({ b }) => b};
+  border-color: ${({ borderColor }) => borderColor};
   border-bottom: ${({ bb }) => bb};
   border-top: ${({ bt }) => bt};
   border-right: ${({ br }) => br};
@@ -31,14 +37,16 @@ export const BoxStyled = styled.div`
   width: ${({ w }) => w};
   max-width: ${({ maxW }) => maxW};
   min-width: ${({ minW }) => minW};
-  max-height: ${({ maxH }) => maxH};
+  maxeight: ${({ maxH }) => maxH};
   min-height: ${({ minH }) => minH};
   user-select: ${({ userSelect }) => userSelect};
   flex: ${({ flex }) => flex};
   overflow: ${({ overflow }) => overflow};
+  line-height:: ${({ lineHeight }) => lineHeight};
   overflow-x: ${({ overflowX }) => overflowX};
   text-align: ${({ textAlign }) => textAlign};
   text-decoration: ${({ textDecoration }) => textDecoration};
+  transition: ${({ transition }) => transition};
   transform: ${({ transform }) => transform};
   position: ${({ position }) => position};
   top: ${({ top }) => top};
@@ -51,12 +59,14 @@ export const BoxStyled = styled.div`
   flex-direction: ${({ flexDirection }) => flexDirection};
   justify-content: ${({ justifyContent }) => justifyContent};
   align-items: ${({ alignItems }) => alignItems};
+  align-content: ${({ alignContent }) => alignContent};
   flex-wrap: ${({ flexWrap }) => flexWrap};
   flex-basis: ${({ flexBasis }) => flexBasis};
   flex-grow: ${({ flexGrow }) => flexGrow};
 
   grid-auto-flow: ${({ gridAutoFlow }) => gridAutoFlow};
   column-gap: ${({ columnGap }) => columnGap};
+  grid-gap: ${({ gridGap }) => gridGap};
   grid-template-columns: ${({ gridTemplateColumns }) => gridTemplateColumns};
 
   &:hover {

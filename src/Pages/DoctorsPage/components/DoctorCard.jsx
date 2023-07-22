@@ -42,25 +42,25 @@ const DoctorCard = ({
               <img
                 src={Star}
                 alt="star"
-                height={"20px"}
+                height={"1.25rem"}
                 style={{ marginRight: "0.62rem" }}
               />
               <img
                 src={Star}
                 alt="star"
-                height={"20px"}
+                height={"1.25rem"}
                 style={{ marginRight: "0.62rem" }}
               />
               <img
                 src={Star}
                 alt="star"
-                height={"20px"}
+                height={"1.25rem"}
                 style={{ marginRight: "0.62rem" }}
               />
               <img
                 src={Star}
                 alt="star"
-                height={"20px"}
+                height={"1.25rem"}
                 style={{ marginRight: "0.62rem" }}
               />
             </Box>

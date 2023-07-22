@@ -9,10 +9,10 @@ const LoginPage = () => {
   return (
     <Box display="flex" alignItems="center" h="100%" flexDirection="column">
       <Box>
-        <Text fontSize="32px" fontWeight="500" textColor="black">
+        <Text fontSize="2rem" fontWeight="500" textColor="black">
           Welcome Back!
         </Text>
-        <Text fontSize="32px" fontWeight="500">
+        <Text fontSize="2rem" fontWeight="500">
           Sign In to Your Profile
         </Text>
       </Box>

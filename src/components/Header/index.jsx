@@ -15,7 +15,7 @@ const Header = () => {
       padding="1.19rem 1.12rem"
     >
       <Text
-        fontSize="32px"
+        fontSize="2rem"
         fontWeight="500"
         textColor="white"
         display="flex"

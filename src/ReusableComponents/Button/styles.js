@@ -16,6 +16,7 @@ export const ButtonStyled = styled.button`
   font-size: ${({ fontSize }) => fontSize};
   border-right: ${({ br }) => br};
   border-left: ${({ bl }) => bl};
+  border-color: ${({ borderColor }) => borderColor};
   padding: ${({ p }) => p};
   color: ${({ textColor }) => textColor};
   height: ${({ h }) => h};

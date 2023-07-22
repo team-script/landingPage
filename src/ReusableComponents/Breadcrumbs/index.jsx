@@ -11,7 +11,7 @@ const Breadcrumbs = ({ list }) => {
   const history = useHistory();
   const handleClick = (link) => link && history.push(link);
   return (
-    <Box display="flex" marginTop="24px" marginBottom="10px" padding="5px 0">
+    <Box display="flex" marginTop="1.5rem" marginBottom="0.625rem" padding="5px 0">
       {list.map(({ name, icon, link }, i) => (
         <Box display="flex" key={name} onClick={() => handleClick(link)}>
           <Text

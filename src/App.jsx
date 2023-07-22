@@ -1,19 +1,19 @@
-import { useRoutes } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import "./App.css";
-import Login from "./Pages/Login";
-import { Container } from "@mui/material";
-import Header from "./components/Header";
-import Box from "./ReusableComponents/Box";
-import DoctorsList from "./Pages/DoctorsPage";
+import NavigationBar from "./Pages/LandingPage/Shared/NavigationBar/NavigationBar";
+import Footer from "./Pages/LandingPage/Shared/Footer/Footer";
 
 const App = () => {
   return (
     <>
-      <Header />
+     {/* <Header />
       <Container style={{ maxWidth: "1800px" }}>
-        <DoctorsList />
+        <DoctorsList /> */}
         {/* <Login /> */}
-      </Container>
+      {/* </Container> */}
+    <NavigationBar></NavigationBar>
+    <Outlet></Outlet>
+    <Footer></Footer>
     </>
   );
 };

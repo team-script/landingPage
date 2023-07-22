@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Box from "src/ReusableComponents/Box";
 import Text from "src/ReusableComponents/Text";
 import theme from "src/theme";

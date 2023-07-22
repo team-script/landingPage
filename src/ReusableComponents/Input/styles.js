@@ -24,6 +24,7 @@ export const InputStyled = styled.input`
   width: ${({ w }) => w};
   max-width: ${({ mw }) => mw};
   border: ${({ border }) => border};
+  box-shadow: ${({ boxShadow }) => boxShadow};
   backdrop-filter: ${({ backdropFilter }) => backdropFilter};
   cursor: ${({ cursor }) => cursor};
   line-height: ${({ lineHeight }) => lineHeight};

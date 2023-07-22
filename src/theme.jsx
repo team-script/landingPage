@@ -6,7 +6,7 @@ const theme = {
     500: "24px",
     600: "36px",
     650: "42px",
-    700: "48px",
+    700: "3rem",
   },
   colors: {
     primary: {

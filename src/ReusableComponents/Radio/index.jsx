@@ -12,7 +12,7 @@ const RadioButton = ({ name, isActive, handleClick, margin, index }) => {
       padding="8px"
       w="fit-content"
       b="1px solid #D9D9D9"
-      borderRadius="4px"
+      borderRadius="0.25rem"
       cursor="pointer"
       onClick={handleClick}
       marginLeft={index === 0 ? 0 : `${margin}`}
